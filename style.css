@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    font-family: 'Festive', cursive;
+    background: rgb(203, 233, 239);
+    background: radial-gradient(circle, rgba(203, 233, 239, 1) 0%, rgba(0, 212, 255, 1) 51%, rgba(4, 136, 239, 1) 100%);
+}
+
+h1 {
+    color: aliceblue;
+
+}
+
+h4 {
+    color: antiquewhite;
+
+}
+
+span {
+    color: aliceblue;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+img {
+    height: 200px;
+    width: 250px;
+    border-color: aliceblue;
+    border-style: double;
+
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%)
+}
+
+.btn-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
